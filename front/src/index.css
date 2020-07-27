@@ -1,0 +1,710 @@
+#breadcrumb{
+  background-color: transparent;
+ justify-content: center;
+}
+.message-box{/* usando*/
+  margin: 80px ;
+  text-align: center;
+  position: relative;
+}
+.message-box-h4{ /* usando*/
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0 0 5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+.message-box-p{ /* usando*/
+color: #999;
+}
+#aboutus-button-learn-more{ /* usando*/
+  background-color: black;
+  padding: px 40px;
+  font-size: 18px;
+  border: 2px solid !important;
+  font-weight: 500;
+  border-radius: 10px;
+transition-property: color;
+transition-duration: 0.2s;
+transition-timing-function: ease, ease;
+transition-delay: 0s, 0s;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+position: relative;
+  width: 200px;
+  height: 50px;
+}
+.titulo-imagen-about{ 
+color: #1f1f1f ;
+font-size: 21px;
+padding: 20px 0 12px;
+margin: 0;
+font-weight: normal;
+line-height: 120% !important;
+font-family: inherit;
+text-align: center;
+}
+.p-imagen-about{ 
+margin: 0 0 10px;
+text-align: center;
+color: #999;
+font-size: 17px;
+font-family: "Montserrat" sans-serif;
+}
+.message-box-h2{ /* usando*/
+  font-size: 40px;
+  font-weight: 600 !important;
+  margin: 0 ;
+  text-transform: none;
+  padding: 0 0 10px;
+  letter-spacing: 0;
+  line-height: 120% !important;
+  font-family: inherit;
+}
+#leftnav{
+  height: 100%;
+  position: fixed;
+  display: unset;
+}
+.footer {
+  /* padding: 90px 0 80px !important; */
+  color: #999;
+  background-color: rgb(19,19,19) !important;
+}
+.footer .widget-title {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+.footer .widget-title small {
+  color: #999;
+  display: block;
+  padding: 0 58px;
+  text-transform: uppercase;
+}
+.footer .widget-title h3 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 21px;
+  padding: 0;
+  margin: 0;
+  line-height: 1 !important;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links a {
+  color: #999;
+}
+.footer-links a:hover,
+.footer a:hover {
+  color: #f4f4f4 !important;
+}
+.footer-links li {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+}
+.twitter-widget li {
+  margin-bottom: 0;
+  border: 0 !important;
+}
+.twitter-widget li i {
+  border-right: 0 !important;
+  margin-right: 0;
+}
+.footer-links li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 0;
+}
+.footer-links i {
+  display: inline-block;
+  width: 25px;
+  margin-right: 10px;
+  border-right: 1px dashed rgba(255, 255, 255, 0.1);
+}
+.copyrights {
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 50px 60px;
+  overflow: hidden;
+}
+/* Footer left */
+.footer-distributed .footer-left {
+  float: left;
+}
+.footer-distributed .footer-links {
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  padding: 0;
+}
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+}
+.footer-distributed .footer-company-name {
+  font-weight: 300;
+  margin: 0 10px;
+  color: #666;
+  padding: 0;
+}
+/* Footer right */
+.footer-distributed .footer-right {
+  float: right;
+}
+/* The search form */
+.footer-distributed form {
+  position: relative;
+}
+.footer-distributed form input {
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #181818;
+  border: none;
+  font: inherit;
+  font-size: 15px;
+  font-weight: normal;
+  color: #999;
+  width: 400px;
+  padding: 18px 50px 18px 18px;
+}
+.footer-distributed form input:focus {
+  outline: none;
+}
+/* Changing the placeholder color */
+.footer-distributed form input::-webkit-input-placeholder {
+  color: #999;
+}
+.footer-distributed form input::-moz-placeholder {
+  opacity: 1;
+  color: #999;
+}
+.footer-distributed form input:-ms-input-placeholder {
+  color: #999;
+}
+/* The magnify glass icon */
+.footer-distributed form i {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  color: #999;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.footer-distributed .footer-company-name a{
+color: #ffffff;
+}
+.footer-distributed .footer-company-name a:hover{
+color: #bb9d52;
+}
+.carousel-item img{
+  width: 100%;
+  height: 750px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.carousel-caption{
+  font-size: 10em;
+}
+.section{
+  background-color: rgb(19,19,19);
+  padding: 30px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: 0.2s;
+}
+.section:hover{
+  background-color: rgb(188,156,92);
+  padding: 30px;
+}
+.specialbtn:hover{
+  background-color: rgb(188,156,92) !important;
+}
+
+.noDecoration{
+    text-decoration: none !important;
+    color: white !important;
+    width: 100%;
+}
+
+.noDecoration2{
+  text-decoration: none !important;
+  color: white !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.hr1{
+  border: 1px dashed rgba(190, 190, 190, 0.7);
+}
+
+.about-tab a{
+  border-radius: 100px !important;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.no-bullets li {
+  display: inline;
+  margin-left: 50px;
+}
+
+#leftnav{
+  background-color: rgb(19,19,19) !important;
+}
+
+.vertnav button{
+  background-color: rgb(19,19,19) !important;
+  margin: 10px auto !important;
+  color: white !important;
+  outline:none; 
+  border-style: none;
+  border-radius: 100px !important;
+}
+
+.vertnav button:hover{
+  background-color: rgb(188,156,92) !important;
+  margin-bottom: 10px !important;
+  color: white !important;
+}
+
+.post-media img{
+  max-width: 270px;
+}
+
+.barbersection{
+  background-color: rgb(240,240,240);
+}
+
+.barberlist img{
+  max-width: 270px;
+}
+
+.barberlist .fadeIn{
+  position: relative;
+  width: 50%;
+}
+
+.barberlist .fadeIn img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.barberlist .fadeIn img:hover{
+  opacity: 0.3;
+}
+
+.barberlist .fadeIn .socialhover{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+  background-color: gray;
+}
+
+.barberlist .fadeIn .socialhover:hover{
+  opacity: 1;
+}
+
+.desc{
+  max-width: 500px;
+  max-height: 400px;
+  background-color: rgb(188,156,92,0.7) !important;
+  color: white;
+  padding: 20px 70px;
+  border-radius: 10px;
+}
+
+.fa-quote-left{
+  color: #181818 !important;
+}
+
+.testiwrapper{
+  margin: 0px auto !important;
+  background-color: rgb(188,156,92,0.7) !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.9),rgba(19,19,19,0),rgba(19,19,19,1)),
+  url(https://d20ga1agp72kf9.cloudfront.net/bewe/blog/2018-03-errores-de-barberos-novatos-full.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.registeiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://www.3claveles.com/img/cms/barberia2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.pricistener{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTo-sfJA68W31tFU23FmhjTQkY_al5oRSOnNTUmX5xJOuClritH&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.servisteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://images.squarespace-cdn.com/content/v1/5cd9d27f840b16669a850ca3/1557795744556-K4OHMPGMAVP0QBK8MN3E/ke17ZwdGBToddI8pDm48kP8VQ8qlVqwk_QT5FAymW9d7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZrwG2UoTO-LAuHBXIn7DjXpzv7JrEEnjpClQgNcWMNIJvwGh1qtNWvMhYKnvaKhbA/Screen+Shot+2019-05-13+at+8.07.40+PM.png?format=2500w);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.barbersteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://st3.depositphotos.com/12071432/18627/i/450/depositphotos_186272986-stock-photo-serious-handsome-barber-holding-razor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.loginsteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3p23q3zP4E3kzHrk1ZOE8lOp7EqX7OOcbA7EZye3-e6A0h0On&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.faqsteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://modaellos.com/wp-content/uploads/2020/01/barba-llena-larga.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.contactsteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://i.pinimg.com/564x/c1/3b/32/c13b32c5fd6b8263bd1b526da2054fdd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.appointsteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJODTgeNTNKT-yHHPWNQiYKSVbJxDBV1oLxxMMvA7LnxINbi1W&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.aboutsteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://www.insidehook.com/wp-content/uploads/2020/03/Coronavirus-Beards.jpg?fit=1500%2C1000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.aboutsteinertitulo {
+  margin-top: 150px;
+  font-size: 60px ;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+}
+
+.mustache{
+  justify-content: center;
+}
+
+.nothinghere{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRaEy-9Ddjmr8fFzQHOHMc3W_PIcQ8B71bQi2pfIo-vo4k8JrjE&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.dashteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://lh3.googleusercontent.com/KdS80Cg-hJHPGUm5h-k0PHGoPrmGKCN6TNdMdPvuD0Zvz3v72xbyipQ8lJzm-bFvGZ2IuXdb=w1080-h608-p-no-v0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(188,156,92,0.7); */
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.blogteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://image.winudf.com/v2/image/cGUuYXBwLmJlYXJkbWFuc3R5bGVfc2NyZWVuXzFfMTUzNTE4ODgxMF8wMjU/screen-1.jpg?fakeurl=1&type=.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.dashpassteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNNuzS7N5HsD6HdmhAbEnyVGbFejkXRztsk10KcLkduVvfVREV&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.dashuserteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQHqBpaSmf0hSjTFov27v8VAoLF1Pq9hrnqKYfANlw0SRp8lnsc&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.dashadminblogteiner{
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQHqBpaSmf0hSjTFov27v8VAoLF1Pq9hrnqKYfANlw0SRp8lnsc&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.listwrapper{
+  background-color: rgba(104, 103, 103, 0.4);
+  }
+
+.dashitem{
+  background-color: rgba(19, 19, 19, 0.4) !important;
+}
+
+.dashitem:hover{
+  background-color: rgb(188,156,92,0.7) !important;
+}
+
+.blogitem{
+  background-color: rgba(100, 100, 100, 0.4) !important;
+}
+
+.blogitem:hover{
+  background-color: rgb(188,156,92,0.7) !important;
+}
+
+.cardbg{
+  background-color: rgba(100, 100, 100, 0.4) !important;
+}
+
+.testi-meta{
+  color: white;
+  margin-top: 30px;
+}
+
+.testi-meta img{
+  max-width: 60px !important;
+  max-height: 60px !important;
+}
+
+.appointsteiner{ /* usando*/
+  margin: 0px auto !important;
+  background: 
+  linear-gradient(rgba(19,19,19,0.5),rgba(19,19,19,0.9)),
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJODTgeNTNKT-yHHPWNQiYKSVbJxDBV1oLxxMMvA7LnxINbi1W&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(188,156,92,0.7);
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 550px;
+}
+
+.appointment-cont{ /* usando  */
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.appointment-left{
+  display: block;
+  background-color: transparent;
+  color: #999;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.80857;
+}
+
+.appointment-time ul li {
+  color: white;
+  background-color: transparent;
+  list-style-type: none;
+  margin-bottom: 45px;
+  border-bottom: 2px dotted #111111;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 34px;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.appointment-time ul li span{
+  background-color: black;
+  padding: 8px;
+}
+
+#span-1{
+  margin-left: 150px ;
+  background-color: transparent;
+}
+
+#span-2{
+  margin-left: 145px ;
+  background-color: transparent;
+}
+
+#span-3{
+  margin-left: 117px ;
+  background-color: transparent;
+}
+
+#span-4{
+  margin-left: 132px ;
+  background-color: transparent;
+}
+
+#span-5{
+  margin-left: 161px ;
+  background-color: transparent;
+}
+
+#span-6{
+  margin-left: 130px ;
+  background-color: transparent;
+}
+
+#span-7{
+  margin-left: 152px ;
+  background-color: transparent;
+}
+
+.appointment-left h2{
+  font-size: 38px;
+  color: #bb9d52;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 0 0 10px 0;
+  line-height: 120%;
+margin-left: 20px;
+}
+
+#contactform{
+  background-color: black;
+}
+
+#contactform-form{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 60px;
+}
