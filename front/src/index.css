@@ -533,6 +533,11 @@ font-family: 'Montserrat', sans-serif;
   min-height: 550px;
 }
 
+.homesteiner{
+  width: 100%;
+  margin: 0px;
+}
+
 .dashpassteiner{
   margin: 0px auto !important;
   background: 

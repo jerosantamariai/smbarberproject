@@ -9,7 +9,7 @@ import { Context } from '../store/appContext';
 const Home = props => {
   const { store, actions } = useContext(Context)
   return (
-    <>
+    <div className="homestener">
       <div className="row">
         <div className="col-md-12">
           {
@@ -61,7 +61,7 @@ const Home = props => {
           <LandComments />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

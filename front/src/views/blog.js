@@ -27,11 +27,11 @@ const Blog = props => {
                                                     <p className="card-text mb-5">{blo.publictext}</p>
                                                     {
                                                         !!store.currentUser ? (
-                                                            <>
+                                                            <div className="privatecontent mx-auto">
                                                                 <iframe width="560" height="315" src={blo.blogvideo} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                                 <p className="card-text my-5">{blo.privatext}</p>
                                                                 <small>Si por alguna extraña razón no puedes ver el video. Haz click <a href={blo.blogvideo} target="_blank">aquí</a> para verlo en Youtube!</small>
-                                                            </>
+                                                            </div>
                                                         ) : (
                                                                 <>
                                                                     <h3>You are not register!! :&#40;</h3>
