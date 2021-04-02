@@ -1,9 +1,9 @@
 rm -rf migrations
 rm db.sqlite3
-python app.py db init 
-python app.py db migrate
-python app.py db upgrade
-python app.py loadroles 
-python app.py loadblogs
-python app.py loadadmin
-python app.py runserver
+python3 app.py db init 
+python3 app.py db migrate
+python3 app.py db upgrade
+python3 app.py loadroles 
+python3 app.py loadblogs
+python3 app.py loadadmin
+python3 app.py runserver
